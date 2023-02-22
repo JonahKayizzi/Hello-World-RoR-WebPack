@@ -5,3 +5,5 @@ const Greeting = () => {
   const { greeting } = useSelector((state) => state.greetings);
   return <h1>{greeting}</h1>;
 };
+
+export default Greeting;
