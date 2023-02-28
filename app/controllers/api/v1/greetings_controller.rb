@@ -1,8 +1,7 @@
 class Api::V1::GreetingsController < ApplicationController
-    def index
-        @greetings = Greeting.all.sample
+  def index
+    @greetings = Greeting.all.sample
 
-        render json: @greetings.Text
-    end
-
+    render json: @greetings.Text
+  end
 end
